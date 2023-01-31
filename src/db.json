@@ -1,0 +1,779 @@
+{
+    "categories": [
+        {
+            "id": 1,
+            "image": "../images/orange-juice.png",
+            "name": "Fruits"
+        },
+        {
+            "id": 2,
+            "image": "../images/broccoli.png",
+            "name": "Vegetables"
+        },
+        {
+            "id": 3,
+            "image": "../images/fish.png",
+            "name": "Semi-finished"
+        },
+        {
+            "id": 4,
+            "image": "../images/dough.png",
+            "name": "Bakery"
+        },
+        {
+            "id": 5,
+            "image": "../images/beef.png",
+            "name": "Meat"
+        },
+        {
+            "id": 6,
+            "image": "../images/pasta.png",
+            "name": "Pasta"
+        },
+        {
+            "id": 7,
+            "image": "../images/cupcake.png",
+            "name": "Sweets"
+        }
+    ],
+    "newProducts": [
+        {
+            "id": 1,
+            "image": "../images/Image.png",
+            "title": "Fresh Vegetable",
+            "price1": "$50.00",
+            "price2": "$35.00",
+            "unity": "(1kg)"
+        },
+        {
+            "id": 2,
+            "image": "../images/newBakery.png",
+            "title": "bakery bread viennoiserie...",
+            "price1": "$40.00",
+            "price2": "$30.00",
+            "unity": "(1kg)"
+        },
+        {
+            "id": 3,
+            "image": "../images/iceCream.png",
+            "title": "ICE cream cones sundae...",
+            "price1": "$20.00",
+            "price2": "$15.00",
+            "unity": "(450ml)"
+        },
+        {
+            "id": 4,
+            "image": "../images/papaya.png",
+            "title": "Papaya seed auglis fruit...",
+            "price1": "$45.00",
+            "price2": "$35.00",
+            "unity": "(1.5kg)"
+        },
+        {
+            "id": 5,
+            "image": "https://thumbs.dreamstime.com/b/chopped-vegetables-plastic-storage-containers-colorful-healthy-50582713.jpg",
+            "title": "Chopped Vegetables in Plastic Storage Containers",
+            "price1": "$20.00",
+            "price2": "$10.00",
+            "unity": "(300gr)"
+        },
+        {
+            "id": 6,
+            "image": "https://thumbs.dreamstime.com/b/italian-bakery-28379528.jpg",
+            "title": "Italian Bakery",
+            "price1": "$95.00",
+            "price2": "$80.00",
+            "unity": "(2.2kg)"
+        },
+        {
+            "id": 7,
+            "image": "https://thumbs.dreamstime.com/b/red-apples-29225896.jpg",
+            "title": "Red apples",
+            "price1": "$20.00",
+            "price2": "$15.00",
+            "unity": "(1kg)"
+        },
+        {
+            "id": 8,
+            "image": "https://thumbs.dreamstime.com/z/organic-yellow-squash-13705536.jpg",
+            "title": "Organic Yellow Squash",
+            "price1": "$12.00",
+            "price2": "$10.00",
+            "unity": ""
+        },
+        {
+            "id": 9,
+            "image": "https://thumbs.dreamstime.com/b/indian-sweets-13868613.jpg",
+            "title": "Indian sweets",
+            "price1": "$15.00",
+            "price2": "$10.00",
+            "unity": ""
+        },
+        {
+            "id": 10,
+            "image": "https://thumbs.dreamstime.com/b/isolated-raw-meats-25105176.jpg",
+            "title": "Isolated raw meats",
+            "price1": "$70.00",
+            "price2": "$65.00",
+            "unity": ""
+        },
+        {
+            "id": 11,
+            "image": "https://thumbs.dreamstime.com/z/cold-drinks-vegan-smoothies-refreshing-lunch-different-50589576.jpg",
+            "title": "Cold drinks- vegan smoothies",
+            "price1": "$30.00",
+            "price2": "$20.00",
+            "unity": "(80ml)"
+        },
+        {
+            "id": 12,
+            "image": "https://thumbs.dreamstime.com/z/green-tea-fresh-leaves-water-52152076.jpg",
+            "title": "Green tea",
+            "price1": "",
+            "price2": "$10.00",
+            "unity": "(80ml)"
+        },
+        {
+            "id": 13,
+            "image": "https://thumbs.dreamstime.com/b/fresh-fruit-salad-bowl-healthy-wooden-background-top-view-51971994.jpg",
+            "title": "Fresh fruit salad",
+            "price1": "$25.00",
+            "price2": "$18.00",
+            "unity": "(500gr)"
+        }
+    ],
+    "selling": [
+        {
+            "id": 1,
+            "image": "../imagesBest/oil.png",
+            "title": "Low Fat Peanut Oil",
+            "price1": "$25.00",
+            "price2": "$20.00",
+            "unity": "(05)"
+        },
+        {
+            "id": 2,
+            "image": "../imagesBest/PrimeBeef.png",
+            "title": "Prime Beef",
+            "price1": "$35.00",
+            "price2": "$28.00",
+            "unity": "(04)"
+        },
+        {
+            "id": 3,
+            "image": "../imagesBest/Mulberry.png",
+            "title": "Mulberry",
+            "price1": "$25.00",
+            "price2": "$20.00",
+            "unity": "(35)"
+        },
+        {
+            "id": 4,
+            "image": "../imagesBest/CoconutMilk.png",
+            "title": "Coconut Milk",
+            "price1": "$8.00",
+            "price2": "$6.00",
+            "unity": "(10)"
+        },
+        {
+            "id": 5,
+            "image": "../imagesBest/CreamCake.png",
+            "title": "Cream Cake",
+            "price1": "$17.00",
+            "price2": "$12.00",
+            "unity": "(02)"
+        },
+        {
+            "id": 6,
+            "image": "../imagesBest/CrownDaisy.png",
+            "title": "Crown Daisy",
+            "price1": "$22.00",
+            "price2": "$15.00",
+            "unity": "(23)"
+        },
+        {
+            "id": 7,
+            "image": "../imagesBest/DeliciousMilk.png",
+            "title": "Delicious Milk",
+            "price1": "$12.00",
+            "price2": "$8.00",
+            "unity": "(16)"
+        },
+        {
+            "id": 8,
+            "image": "../imagesBest/FreshApple.png",
+            "title": "Fresh Apple",
+            "price1": "$12.00",
+            "price2": "$8.00",
+            "unity": "(08)"
+        },
+        {
+            "id": 9,
+            "image": "../imagesBest/ChickenMeat.png",
+            "title": "Chicken Meat",
+            "price1": "$15.00",
+            "price2": "$10.00",
+            "unity": "(19)"
+        },
+        {
+            "id": 10,
+            "image": "../imagesBest/FreshFish.png",
+            "title": "Fresh Fish",
+            "price1": "$18.00",
+            "price2": "$12.00",
+            "unity": "(01)"
+        },
+        {
+            "id": 11,
+            "image": "../imagesBest/MixReadyJuc.png",
+            "title": "Mix Ready Juc",
+            "price1": "$15.00",
+            "price2": "$8.00",
+            "unity": "(09)"
+        },
+        {
+            "id": 12,
+            "image": "../imagesBest/KiwifruitFood.png",
+            "title": "Kiwifruit Food",
+            "price1": "$8.00",
+            "price2": "$5.00",
+            "unity": "(09)"
+        }
+    ],
+    "fruits": [
+        {
+            "id": 1,
+            "name": "Banana",
+            "image": "https://thumbs.dreamstime.com/b/sliced-banana-isolated-white-background-58835288.jpg",
+            "price1": 20,
+            "price2": 15,
+            "unity": "1kg"
+        },
+        {
+            "id": 2,
+            "name": "Mandarin orange",
+            "image": "https://thumbs.dreamstime.com/b/mandarin-orange-23753206.jpg",
+            "price1": 20,
+            "price2": 15,
+            "unity": "1kg"
+        },
+        {
+            "id": 3,
+            "name": "Melon",
+            "image": "https://www.jiomart.com/images/product/600x600/590860367/sunmelon-premium-indian-1-pc-approx-1-kg-1-4-kg-0-20211112.jpg",
+            "price1": 25,
+            "price2": 18,
+            "unity": "1.3kg"
+        },
+        {
+            "id": 4,
+            "name": "Water-Melon",
+            "image": "https://freshpointlocal.co.uk/wp-content/uploads/2018/12/WaterMelon-1.jpg",
+            "price1": 30,
+            "price2": 22,
+            "unity": "5kg"
+        },
+        {
+            "id": 5,
+            "name": "Water-Melon",
+            "image": "https://5.imimg.com/data5/IF/HP/MY-46595757/fresh-water-melon-281kg-29-500x500.png",
+            "price1": 40,
+            "price2": 28,
+            "unity": "4kg"
+        },
+        {
+            "id": 6,
+            "name": "Lemon",
+            "image": "https://vaperz.co.uk/wp-content/uploads/Lemon-E-Liquid.jpg",
+            "price1": 10,
+            "price2": 8,
+            "unity": "1kg"
+        },
+        {
+            "id": 7,
+            "name": "Arabic Lemon",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Lemon.jpg/640px-Lemon.jpg",
+            "price1": 15,
+            "price2": 10,
+            "unity": "1kg"
+        },
+        {
+            "id": 8,
+            "name": "Mandarin UZB",
+            "image": "https://sun9-4.userapi.com/impf/c845421/v845421627/1488f8/dBlz5yry21w.jpg?size=807x606&quality=96&sign=66b9571f2a2458ec1c98a26e94433439&type=album",
+            "price1": 20,
+            "price2": 18,
+            "unity": "1kg"
+        },
+        {
+            "id": 9,
+            "name": "Red apple and half of red apple.",
+            "image": "https://thumbs.dreamstime.com/b/red-apple-half-red-apple-16354511.jpg",
+            "price1": 20,
+            "price2": 18,
+            "unity": "1kg"
+        }
+    ],
+    "vegetables": [
+        {
+            "id": 2,
+            "name": "Carrot",
+            "image": "https://www.jessicagavin.com/wp-content/uploads/2019/02/carrots-benefits-pin.jpg",
+            "price1": 10,
+            "price2": 5,
+            "unity": "0.5kg"
+        },
+        {
+            "id": 3,
+            "name": "Pumpkin",
+            "image": "https://images.unsplash.com/photo-1506917728037-b6af01a7d403?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cHVtcGtpbnxlbnwwfHwwfHw%3D&w=1000&q=80",
+            "price1": 20,
+            "price2": 15,
+            "unity": "4kg"
+        },
+        {
+            "id": 4,
+            "name": "Capsicum",
+            "image": "https://t4.ftcdn.net/jpg/02/87/25/37/360_F_287253716_I1seSRet5pt8YGBRRcTbPPV1WesM00n9.jpg",
+            "price1": 15,
+            "price2": 10,
+            "unity": "1kg"
+        },
+        {
+            "id": 5,
+            "name": "Onion",
+            "image": "https://east-fruit.com/wp-content/uploads/2020/08/7e2fa5b4864a3e8f90f7bff01143ade0.jpg",
+            "price1": 15,
+            "price2": 10,
+            "unity": "1kg"
+        },
+        {
+            "id": 6,
+            "name": "Red Onion",
+            "image": "https://blog-images-1.pharmeasy.in/blog/production/wp-content/uploads/2021/05/20204137/shutterstock_1284082165-1.jpg",
+            "price1": 30,
+            "price2": 25,
+            "unity": "3kg"
+        },
+        {
+            "id": 7,
+            "name": "Corn",
+            "image": "https://blog-images-1.pharmeasy.in/blog/production/wp-content/uploads/2022/07/25001247/21.jpg",
+            "price1": 10,
+            "price2": 4,
+            "unity": "0.5kg"
+        },
+        {
+            "id": 8,
+            "name": "Potato",
+            "image": "https://cdn.mos.cms.futurecdn.net/iC7HBvohbJqExqvbKcV3pP.jpg",
+            "price1": 10,
+            "price2": 7,
+            "unity": "1kg"
+        },
+        {
+            "id": 9,
+            "name": "Potato",
+            "image": "https://cdn.mos.cms.futurecdn.net/iC7HBvohbJqExqvbKcV3pP.jpg",
+            "price1": 20,
+            "price2": 12,
+            "unity": "2kg"
+        },
+        {
+            "id": 10,
+            "name": "Radish",
+            "image": "https://www.gardeningknowhow.com/wp-content/uploads/2009/03/radish.jpg",
+            "price1": 15,
+            "price2": 7,
+            "unity": "1kg"
+        },
+        {
+            "id": 11,
+            "name": "Cucumber",
+            "image": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F19%2F2020%2F05%2F22%2FGettyImages-923789096-2000.jpg",
+            "price1": 10,
+            "price2": 5,
+            "unity": "1kg"
+        }
+    ],
+    "semiFish": [
+        {
+            "id": 1,
+            "name": "Fish",
+            "image": "../images/fish.png",
+            "price1": 15,
+            "price2": 8,
+            "unity": "0.5kg"
+        },
+        {
+            "id": 2,
+            "name": "Fish",
+            "image": "../images/fish.png",
+            "price1": 15,
+            "price2": 8,
+            "unity": "0.5kg"
+        },
+        {
+            "id": 3,
+            "name": "Fish",
+            "image": "../images/fish.png",
+            "price1": 15,
+            "price2": 8,
+            "unity": "0.5kg"
+        },
+        {
+            "id": 4,
+            "name": "Fish",
+            "image": "../images/fish.png",
+            "price1": 15,
+            "price2": 8,
+            "unity": "0.5kg"
+        },
+        {
+            "id": 5,
+            "name": "Fish",
+            "image": "../images/fish.png",
+            "price1": 15,
+            "price2": 8,
+            "unity": "0.5kg"
+        },
+        {
+            "id": 6,
+            "name": "Fish",
+            "image": "../images/fish.png",
+            "price1": 15,
+            "price2": 8,
+            "unity": "0.5kg"
+        },
+        {
+            "id": 7,
+            "name": "Fish",
+            "image": "../images/fish.png",
+            "price1": 15,
+            "price2": 8,
+            "unity": "0.5kg"
+        },
+        {
+            "id": 8,
+            "name": "Fish",
+            "image": "../images/fish.png",
+            "price1": 15,
+            "price2": 8,
+            "unity": "0.5kg"
+        }
+    ],
+    "bakery": [
+        {
+            "id": 2,
+            "name": "bakery",
+            "image": "https://organicsthatdeliver.com/wp-content/uploads/2019/10/iStock-947886444-bread-loaves-1-1080x675.jpg",
+            "price1": 20,
+            "price2": 15,
+            "unity": "600ml"
+        },
+        {
+            "id": 3,
+            "name": "bakery",
+            "image": "https://www.figlobal.com/content/dam/Informa/figlobal/india/en/2019/news---updates-images/HLN19FII-VK-259x150-rise_bakery_industry.png",
+            "price1": 20,
+            "price2": 15,
+            "unity": "600ml"
+        },
+        {
+            "id": 4,
+            "name": "bakery",
+            "image": "https://fmtmagazine.in/wp-content/uploads/2021/04/Bakery-Industry-in-India.png",
+            "price1": 20,
+            "price2": 15,
+            "unity": "600ml"
+        },
+        {
+            "id": 5,
+            "name": "bakery",
+            "image": "https://image.freepik.com/premium-photo/different-cakes-glass-shop-window_457211-3138.jpg?w=2000",
+            "price1": 20,
+            "price2": 15,
+            "unity": "600ml"
+        },
+        {
+            "id": 6,
+            "name": "bakery",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS07nKWaNrDaeGLtW3Ls-mz-CESsDBqjm4fGMfQ_uv0-4680_ScipO13VsxkSl2kuyZUHg&usqp=CAU",
+            "price1": 20,
+            "price2": 15,
+            "unity": "600ml"
+        },
+        {
+            "id": 7,
+            "name": "bakery",
+            "image": "https://www.sammic.com/uploads/2021/Panaderia.jpg",
+            "price1": 20,
+            "price2": 15,
+            "unity": "600ml"
+        },
+        {
+            "id": 8,
+            "name": "bakery",
+            "image": "https://www.papercitymag.com/wp-content/uploads/2019/05/bakery-common-bond.jpg",
+            "price1": 20,
+            "price2": 15,
+            "unity": "600ml"
+        }
+    ],
+    "meat": [
+        {
+            "id": 1,
+            "name": "cow meat",
+            "image": "../images/beef.png",
+            "price1": 30,
+            "price2": 25,
+            "unity": "1kg"
+        },
+        {
+            "id": 2,
+            "name": "cow meat",
+            "image": "../images/beef.png",
+            "price1": 20,
+            "price2": 15,
+            "unity": "0.5kg"
+        },
+        {
+            "id": 3,
+            "name": "cow meat",
+            "image": "../images/beef.png",
+            "price1": 45,
+            "price2": 35,
+            "unity": "2kg"
+        },
+        {
+            "id": 4,
+            "name": "cow meat",
+            "image": "../images/beef.png",
+            "price1": 105,
+            "price2": 90,
+            "unity": "5kg"
+        }
+    ],
+    "pasta": [
+        {
+            "id": 2,
+            "name": "noodle",
+            "image": "https://images.immediate.co.uk/production/volatile/sites/30/2013/05/Puttanesca-fd5810c.jpg",
+            "price1": 20,
+            "price2": 10,
+            "unity": "500ml"
+        },
+        {
+            "id": 3,
+            "name": "noodle",
+            "image": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2021/02/05/Baked-Feta-Pasta-4_s4x3.jpg.rend.hgtvcom.616.493.suffix/1615916524567.jpeg",
+            "price1": 20,
+            "price2": 15,
+            "unity": "500ml"
+        },
+        {
+            "id": 4,
+            "name": "noodle",
+            "image": "https://realfood.tesco.com/media/images/1400x919-tomato-pasta-6a5a3c8e-f111-490d-805c-9b62fbec8691-0-1400x919.jpg",
+            "price1": 15,
+            "price2": 5,
+            "unity": "500ml"
+        },
+        {
+            "id": 5,
+            "name": "noodle",
+            "image": "https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_1:1/k%2FEdit%2F09-2022-sausage-pasta%2Fsausage-pasta-4",
+            "price1": 25,
+            "price2": 15,
+            "unity": "500ml"
+        },
+        {
+            "id": 6,
+            "name": "noodle",
+            "image": "https://www.allrecipes.com/thmb/5SdUVhHTMs-rta5sOblJESXThEE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/11691-tomato-and-garlic-pasta-ddmfs-3x4-1-bf607984a23541f4ad936b33b22c9074.jpg",
+            "price1": 15,
+            "price2": 5,
+            "unity": "500ml"
+        },
+        {
+            "id": 7,
+            "name": "noodle",
+            "image": "https://www.lastingredient.com/wp-content/uploads/2016/08/burst-tomato-pasta15.jpg",
+            "price1": 15,
+            "price2": 5,
+            "unity": "500ml"
+        },
+        {
+            "id": 8,
+            "name": "noodle",
+            "image": "https://assets.epicurious.com/photos/55f72d733c346243461d496e/4:6/w_1676,h_2514,c_limit/09112015_15minute_pastasauce_tomato.jpg",
+            "price1": 23,
+            "price2": 15,
+            "unity": "500ml"
+        },
+        {
+            "id": 9,
+            "name": "noodle",
+            "image": "https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_1:1/k%2Farchive%2Fbd5bbcce40edf5ea5bf0d8210b1c742db491c5e6",
+            "price1": 35,
+            "price2": 25,
+            "unity": "500ml"
+        }
+    ],
+    "sweets": [
+        {
+            "id": 1,
+            "name": "Ice-cream",
+            "image": "../images/iceCream.png",
+            "price1": 5,
+            "price2": 3,
+            "unity": "300gr"
+        },
+        {
+            "id": 2,
+            "name": "Candy",
+            "image": "https://www.rajbhog.com/wp-content/uploads/2021/09/Bengali-Assorted-Sweets-1-600x600.jpg",
+            "price1": 5,
+            "price2": 4,
+            "unity": "300gr"
+        },
+        {
+            "id": 3,
+            "name": "Multi ",
+            "image": "https://images.yourstory.com/cs/21/98e25df018b511e988ceff9061f4e5e7/Imagef02c-1611320326878.jpg?w=752&fm=auto&ar=2:1&mode=crop&crop=faces",
+            "price1": 25,
+            "price2": 20,
+            "unity": "500gr"
+        },
+        {
+            "id": 4,
+            "name": "Candy",
+            "image": "https://c.ndtvimg.com/2019-10/o52ta3a8_sweets-_625x300_26_October_19.jpg?ver-20221221.02",
+            "price1": 10,
+            "price2": 8,
+            "unity": "400gr"
+        },
+        {
+            "id": 5,
+            "name": "Ice-cream",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Ice_cream_with_whipped_cream%2C_chocolate_syrup%2C_and_a_wafer_%28cropped%29.jpg/1200px-Ice_cream_with_whipped_cream%2C_chocolate_syrup%2C_and_a_wafer_%28cropped%29.jpg",
+            "price1": 10,
+            "price2": 8,
+            "unity": "400gr"
+        },
+        {
+            "id": 5,
+            "name": "Ice-cream",
+            "image": "https://www.shutterstock.com/shutterstock/photos/642062308/display_1500/stock-photo-variety-of-ice-cream-scoops-in-cones-with-chocolate-vanilla-and-strawberry-642062308.jpg",
+            "price1": 20,
+            "price2": 15,
+            "unity": "1kg"
+        },
+        {
+            "id": 6,
+            "name": "Ice-cream",
+            "image": "https://www.foodnetwork.com/content/dam/images/food/fullset/2022/02/9/0/KC3004_katie-lee-biegel-edible-cereal-treat-bowls-for-ice-cream-sundae-2_s4x3.jpg",
+            "price1": 10,
+            "price2": 7,
+            "unity": "200gr"
+        },
+        {
+            "id": 7,
+            "name": "Ice-cream",
+            "image": "https://thebigmansworld.com/wp-content/uploads/2022/06/rolled-ice-cream-recipe.jpeg",
+            "price1": 10,
+            "price2": 7,
+            "unity": "500gr"
+        },
+        {
+            "id": 8,
+            "name": "Ice-cream",
+            "image": "https://foodhub.scene7.com/is/image/woolworthsltdprod/1912-edible-choc-ice-cream-bowls:Desktop-1300x658",
+            "price1": 15,
+            "price2": 10,
+            "unity": "500gr"
+        }
+    ],
+    "drinks": [
+        {
+            "id": 1,
+            "name": "Soft drinks",
+            "image": "https://thumbs.dreamstime.com/b/soft-drinks-11566390.jpg",
+            "price1": 5,
+            "price2": 3,
+            "unity": "300gr"
+        },
+        {
+            "id": 2,
+            "name": "Cola with ice cubes and lemon slice",
+            "image": "https://thumbs.dreamstime.com/z/cola-ice-cubes-lemon-slice-11879749.jpg",
+            "price1": 5,
+            "price2": 4,
+            "unity": "300gr"
+        },
+        {
+            "id": 3,
+            "name": "Chocolate drinks",
+            "image": "https://thumbs.dreamstime.com/z/chocolate-drinks-2982130.jpg",
+            "price1": 25,
+            "price2": 20,
+            "unity": "500gr"
+        },
+        {
+            "id": 4,
+            "name": "Candy",
+            "image": "https://c.ndtvimg.com/2019-10/o52ta3a8_sweets-_625x300_26_October_19.jpg?ver-20221221.02",
+            "price1": 10,
+            "price2": 8,
+            "unity": "400gr"
+        },
+        {
+            "id": 5,
+            "name": "Vanilla flavor ice cream in a glass bowl with waffles and chocolate sauce",
+            "image": "https://thumbs.dreamstime.com/z/vanilla-flavor-ice-cream-glass-bowl-waffles-chocolate-sauce-brittle-white-background-30356685.jpg",
+            "price1": 10,
+            "price2": 8,
+            "unity": "400gr"
+        },
+        {
+            "id": 5,
+            "name": "Cup of tea and teapot.",
+            "image": "https://thumbs.dreamstime.com/z/cup-tea-teapot-29066469.jpg",
+            "price1": 20,
+            "price2": 15,
+            "unity": "1kg"
+        },
+        {
+            "id": 6,
+            "name": "Bottles of assorted vegan milks",
+            "image": "https://thumbs.dreamstime.com/z/bottles-assorted-vegan-milks-straws-ingredients-beige-table-wholesome-plant-drinks-alternative-to-milk-animal-142930907.jpg",
+            "price1": 10,
+            "price2": 7,
+            "unity": "200gr"
+        },
+        {
+            "id": 7,
+            "name": "Assortment of vegan, plant based, non dairy milks in bottles",
+            "image": "https://thumbs.dreamstime.com/z/assortment-vegan-plant-based-non-dairy-milks-bottles-side-view-scattered-ingredients-against-dark-background-252251994.jpg",
+            "price1": 10,
+            "price2": 7,
+            "unity": "500gr"
+        },
+        {
+            "id": 8,
+            "name": "Different nut milks in glassware on wooden table",
+            "image": "https://thumbs.dreamstime.com/z/different-nut-milks-glassware-wooden-table-227562437.jpg",
+            "price1": 15,
+            "price2": 10,
+            "unity": "500gr"
+        },
+        {
+            "id": 9,
+            "name": "Different vegan milks and nuts on brown background, flat lay",
+            "image": "https://thumbs.dreamstime.com/z/different-vegan-milks-nuts-brown-background-flat-lay-262880198.jpg",
+            "price1": 15,
+            "price2": 10,
+            "unity": "500gr"
+        }
+    ]
+}

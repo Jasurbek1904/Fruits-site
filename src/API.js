@@ -1,0 +1,10 @@
+export const API_FRUITS = '  http://localhost:9000/fruits'
+export const API_VEGETABLES = '  http://localhost:9000/vegetables'
+export const API_SEMI_FISH = '  http://localhost:9000/semiFish'
+export const API_BAKERY = '  http://localhost:9000/bakery'
+export const API_MEAT = '  http://localhost:9000/meat'
+export const API_PASTA = '  http://localhost:9000/pasta'
+export const API_SWEETS = 'http://localhost:9000/sweets'
+export const API_SELLING = 'http://localhost:9000/selling'
+export const API_DRINKS = 'http://localhost:9000/drinks'
+export const API_NEW_PRODUCTS = "http://localhost:9000/newProducts"
